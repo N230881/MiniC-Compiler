@@ -989,12 +989,3 @@ Project:
 `Source → Tokens → AST → IR → Optimization → CFG → VM`
 
 </div>
-```
-
-### One important thing
-
-Don't just paste this and stop. **Add a `docs/` folder with 2–3 real screenshots** from your Streamlit application and, ideally, a short GIF showing:
-
-**write MiniC → Compile & Run → inspect Tokens → IR → Optimized IR → CFG → Output**
-
-That will make the repository look substantially more serious to a recruiter than adding another 500 words to the README.
