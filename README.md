@@ -42,7 +42,7 @@ Unlike a simple parser or interpreter, MiniC implements a complete compilation p
                              ▼
                    ┌────────────────────┐
                    │      PARSER        │
-                   │   Tokens → AST    │
+                   │   Tokens → AST     │
                    └─────────┬──────────┘
                              │
                              ▼
