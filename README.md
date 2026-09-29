@@ -915,9 +915,6 @@ The goal is to make compiler internals **understandable, executable, and inspect
 
 [https://github.com/N230881/MiniC-Compiler](https://github.com/N230881/MiniC-Compiler)
 
-### DeepWiki
-
-[https://deepwiki.com/N230881/MiniC-Compiler](https://deepwiki.com/N230881/MiniC-Compiler)
 
 ### Technical Guide
 
@@ -960,7 +957,9 @@ Then commit your changes and open a pull request.
 
 # 📄 License
 
-See the repository for the applicable license.
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
