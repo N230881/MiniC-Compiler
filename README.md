@@ -17,8 +17,6 @@
 
 <p align="center">
   <a href="https://github.com/N230881/MiniC-Compiler">GitHub Repository</a>
-  •
-  <a href="https://deepwiki.com/N230881/MiniC-Compiler">DeepWiki Documentation</a>
 </p>
 
 ---
@@ -31,8 +29,8 @@ Unlike a simple parser or interpreter, MiniC implements a complete compilation p
 
 ```text
                    ┌────────────────────┐
-                   │    MiniC Source    │
-                   │       (.mc)        │
+                   │    MiniC Source       │
+                   │       (.mc)            │
                    └─────────┬──────────┘
                              │
                              ▼
