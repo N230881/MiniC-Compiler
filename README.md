@@ -559,24 +559,8 @@ The interface allows users to write MiniC code and inspect the compiler pipeline
 | 🕸️ CFG         | Basic blocks and edges  |
 | ✅ Output        | Program execution       |
 
-### 📸 Add Your Screenshot Here
-
-After adding a screenshot to your repository, for example:
-
-```text
-docs/
-└── streamlit-demo.png
-```
-
-add:
-
-```markdown
-![MiniC Compiler Explorer](docs/streamlit-demo.png)
-```
-
-A real screenshot is strongly recommended because it immediately demonstrates the project's interactive tooling.
-
 ---
+
 
 # 💻 MiniC Language
 
@@ -790,25 +774,26 @@ minicompiler.exe tests\test1.mc
 
 # 🌐 Launch the Web UI
 
-Install dependencies:
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run:
+Start the Streamlit application:
 
 ```bash
 streamlit run app.py
 ```
 
-Open:
+Then open:
 
 ```text
 http://localhost:8501
 ```
 
 ---
+
 
 # 🧪 Test Programs
 
