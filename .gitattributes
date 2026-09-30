@@ -1,6 +1,9 @@
-# Force all .c and .h files to strictly be recognized as C
+# Force all C and Header files to register correctly
 *.c linguist-language=C
 *.h linguist-language=C
 
-# Force all .py files to strictly be recognized as Python
+# Force Python files to register correctly
 *.py linguist-language=Python
+
+# Override the compiled binary/extensionless compiler file so it doesn't default to Monkey C
+minicompiler linguist-language=C
