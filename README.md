@@ -715,14 +715,20 @@ MiniC-Compiler/
 ├── app.py
 ├── requirements.txt
 │
+├── docs/
+│   ├── streamlit-home.png
+│   ├── compiler-pipeline.png
+│   └── cfg-output.png
+│
 ├── tests/
 │   ├── test1.mc
 │   └── test2_optimizer.mc
 │
 ├── Compiler_Construction_Guide.md
 │
+├── LICENSE
+│
 └── minicompiler
-```
 
 ---
 
