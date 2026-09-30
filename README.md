@@ -739,9 +739,15 @@ MiniC-Compiler/
 ├── requirements.txt
 │
 ├── docs/
-│   ├── streamlit-home.png
-│   ├── compiler-pipeline.png
-│   └── cfg-output.png
+│   ├── 01-home.png
+│   ├── 02-tokens.png
+│   ├── 03-ast.png
+│   ├── 04-semantic.png
+│   ├── 05-ir.png
+│   ├── 06-optimizer.png
+│   ├── 07-optimized-ir.png
+│   ├── 08-cfg.png
+│   └── 09-output.png
 │
 ├── tests/
 │   ├── test1.mc
@@ -751,8 +757,10 @@ MiniC-Compiler/
 │
 ├── LICENSE
 │
+├── README.md
+│
 └── minicompiler
-````
+```
 
 ---
 
