@@ -15,6 +15,10 @@
   <b>Lexer → Parser → AST → Semantic Analysis → TAC → Optimization → CFG → Virtual Machine</b>
 </p>
 
+<p align="center">
+  <a href="https://github.com/N230881/MiniC-Compiler">GitHub Repository</a>
+</p>
+
 ---
 
 ## 🚀 Live Demo
