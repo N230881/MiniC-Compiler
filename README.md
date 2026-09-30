@@ -46,6 +46,10 @@ See the MiniC Compiler in action, including the interactive web interface, compi
 
 
 
+https://github.com/user-attachments/assets/273f40ff-3189-4875-9065-affaa8c6fdc3
+
+
+
 The demo showcases the Streamlit-based Compiler Explorer and demonstrates how MiniC processes source code through its compilation pipeline.
 
 
