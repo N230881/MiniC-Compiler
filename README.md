@@ -21,6 +21,51 @@
 
 ---
 
+## 🚀 Live Demo
+
+<p align="center">
+
+<a href="https://minic-compiler-7cmsfadgy5rsgcdny87kd8.streamlit.app/">
+  <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open MiniC Compiler Live Demo"/>
+</a>
+
+</p>
+
+> **Try the MiniC Compiler directly in your browser.**
+>
+> Write MiniC code, compile it, and explore the complete compilation pipeline including **Tokens, AST, Semantic Analysis, TAC/IR, Optimized IR, CFG, and Virtual Machine output**.
+
+🔗 **[Launch MiniC Compiler →](https://minic-compiler-7cmsfadgy5rsgcdny87kd8.streamlit.app/)**
+
+---
+
+## 📸 Compiler Explorer
+
+The project includes an interactive **Streamlit Compiler Explorer** for visualizing the internal stages of compilation.
+
+### 🖥️ Compiler Interface
+
+![MiniC Compiler UI](docs/streamlit-home.png)
+
+### 🔬 Compilation Pipeline
+
+![MiniC Compiler Pipeline](docs/compiler-pipeline.png)
+
+### 🕸️ CFG & Execution Output
+
+![MiniC CFG and Output](docs/cfg-output.png)
+
+---
+
+## 🌐 Try It Online
+
+| Resource                       | Link                                                                               |
+| ------------------------------ | ---------------------------------------------------------------------------------- |
+| 🚀 **Live Compiler**           | [Open Streamlit App](https://minic-compiler-7cmsfadgy5rsgcdny87kd8.streamlit.app/) |
+| 💻 **Source Code**             | [GitHub Repository](https://github.com/Ruhi_2007/MiniC-Compiler)                   |
+| 📚 **Technical Documentation** | `Compiler_Construction_Guide.md`                                                   |
+
+
 ## 🚀 What is MiniC?
 
 **MiniC** is a compiler implementation for a small C-like programming language, built from scratch in **C** to demonstrate the core architecture and engineering principles behind modern compilers.
