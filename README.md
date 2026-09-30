@@ -86,7 +86,7 @@ The project includes an interactive **Streamlit Compiler Explorer** for visualiz
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | 🚀 **Live Compiler**           | [Open Streamlit App](https://minic-compiler-7cmsfadgy5rsgcdny87kd8.streamlit.app/)                                |
 | 💻 **Source Code**             | [GitHub Repository](https://github.com/N230881/MiniC-Compiler)                                                    |
-| 📚 **Technical Documentation** | [Compiler Construction Guide](https://github.com/N230881/MiniC-Compiler/blob/main/Compiler_Construction_Guide.md) |
+| 📚 **Technical Documentation** | [Compiler Construction Guide](https://github.com/N230881/MiniC-Compiler/blob/main/Compiler_Construction_Guide.md) | 
 
 ## 🚀 What is MiniC?
 
