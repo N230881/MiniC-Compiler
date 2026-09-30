@@ -1,0 +1,6 @@
+# Force all .c and .h files to strictly be recognized as C
+*.c linguist-language=C
+*.h linguist-language=C
+
+# Force all .py files to strictly be recognized as Python
+*.py linguist-language=Python
