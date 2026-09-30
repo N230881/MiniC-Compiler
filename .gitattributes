@@ -1,9 +1,11 @@
-# Force all C and Header files to register correctly
+# 1. Protect all source code files
 *.c linguist-language=C
 *.h linguist-language=C
-
-# Force Python files to register correctly
 *.py linguist-language=Python
 
-# Override the compiled binary/extensionless compiler file so it doesn't default to Monkey C
-minicompiler linguist-language=C
+# 2. Treat the compiled binary executable as a binary file so GitHub doesn't read it as text code
+minicompiler binary
+minicompiler linguist-documentation
+
+# 3. Completely hide your compiler test files/expected outputs from language metrics
+tests/** linguist-documentation
