@@ -677,6 +677,7 @@ The compiler therefore exposes the complete transformation instead of returning 
 
 ---
 
+````markdown
 # 📁 Repository Structure
 
 ```text
@@ -729,8 +730,7 @@ MiniC-Compiler/
 ├── LICENSE
 │
 └── minicompiler
-
----
+````
 
 ---
 
