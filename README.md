@@ -732,6 +732,8 @@ MiniC-Compiler/
 
 ---
 
+---
+
 # ⚙️ Installation
 
 ## Requirements
