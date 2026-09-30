@@ -1,0 +1,2 @@
+(skipped: fix semantic errors first)
+Semantic error at line 1: variable 'y' assigned before declaration

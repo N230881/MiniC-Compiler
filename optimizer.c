@@ -65,9 +65,17 @@ static Instr* constantFold(Program *p, int *outCount, int *foldedCount) {
 /* ---------- Pass 2: Dead Code Elimination ----------
    An instruction that computes into a temp register (LOADCONST, LOADVAR,
    BINOP, UNOP) is "dead" if that temp is never read by anything else
-   (no side effects like print/store/branch depend on it). We remove dead
-   instructions and repeat until nothing more can be removed, since
-   removing one dead instruction can make another one dead too. */
+   (no side effects like print/store/branch depend on it). A STOREVAR is a
+   "dead store" if its variable is never loaded anywhere in the program.
+   We remove dead instructions and repeat until nothing more can be
+   removed, since removing one dead instruction can make another one dead
+   too. */
+static int isVarRead(Instr *code, int count, const char *name) {
+    for (int i = 0; i < count; i++)
+        if (code[i].op == OP_LOADVAR && strcmp(code[i].varname, name) == 0) return 1;
+    return 0;
+}
+
 static Instr* deadCodeEliminate(Instr *in, int count, int tempCount, int *outCount, int *eliminatedCount) {
     Instr *cur = in;
     int curN = count;
@@ -90,7 +98,8 @@ static Instr* deadCodeEliminate(Instr *in, int count, int tempCount, int *outCou
             Instr ins = cur[i];
             int hasResult = (ins.op == OP_LOADCONST || ins.op == OP_LOADVAR ||
                               ins.op == OP_BINOP || ins.op == OP_UNOP);
-            if (hasResult && !used[ins.dst]) {
+            int deadStore = (ins.op == OP_STOREVAR && !isVarRead(cur, curN, ins.varname));
+            if ((hasResult && !used[ins.dst]) || deadStore) {
                 removedThisPass++;
                 (*eliminatedCount)++;
                 continue; /* drop it */

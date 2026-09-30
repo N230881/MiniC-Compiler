@@ -60,7 +60,7 @@ if run_btn:
         st.error(
             f"Compiler executable not found at `{COMPILER_PATH}`.\n\n"
             "Build it first by running this in a terminal, inside this folder:\n\n"
-            "```\ngcc -Wall -o minicompiler main.c lexer.c ast.c parser.c semantic.c codegen.c vm.c\n```"
+            "```\ngcc -Wall -o minicompiler main.c lexer.c ast.c parser.c semantic.c codegen.c optimizer.c cfg.c ops.c vm.c\n```"
         )
     else:
         with tempfile.NamedTemporaryFile(mode="w", suffix=".mc", delete=False) as f:
