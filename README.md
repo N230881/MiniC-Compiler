@@ -42,13 +42,12 @@
 
 ## 🎬 Demo Video
 
-Watch the MiniC Compiler in action, including the interactive web interface, compilation stages, optimization, program execution, and error handling.
+See the MiniC Compiler in action, including the interactive web interface, compilation stages, optimization, program execution, and error handling.
 
-> **▶️ MiniC Compiler — Web Interface Demo**
+▶️ **[Watch the MiniC Compiler Demo](docs/minic-ui-clean.mp4)**
 
-[**Watch the full demo video**](docs/minic-ui-clean.mp4)
+The demo showcases the Streamlit-based Compiler Explorer and demonstrates how MiniC processes source code through its compilation pipeline.
 
-The demo walks through the Streamlit-based Compiler Explorer and demonstrates how MiniC processes source code through its compilation pipeline.
 
 
 ## 📸 Compiler Explorer
