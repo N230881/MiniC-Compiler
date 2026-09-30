@@ -41,22 +41,45 @@
 
 ## 📸 Compiler Explorer
 
-The project includes an interactive **Streamlit Compiler Explorer** for visualizing the internal stages of compilation.
+The project includes an interactive **Streamlit Compiler Explorer** for visualizing the complete compilation pipeline.
 
 ### 🖥️ Compiler Interface
 
-![MiniC Compiler UI](docs/streamlit-home.png)
+![MiniC Compiler UI](docs/01-home.png)
 
-### 🔬 Compilation Pipeline
+### 🔤 Lexical Analysis — Tokens
 
-![MiniC Compiler Pipeline](docs/compiler-pipeline.png)
+![MiniC Tokens](docs/02-tokens.png)
 
-### 🕸️ CFG & Execution Output
+### 🌳 Syntax Analysis — AST
 
-![MiniC CFG and Output](docs/cfg-output.png)
+![MiniC AST](docs/03-ast.png)
+
+### 🧠 Semantic Analysis
+
+![MiniC Semantic Analysis](docs/04-semantic.png)
+
+### ⚙️ Intermediate Representation
+
+![MiniC IR](docs/05-ir.png)
+
+### 🚀 Optimization
+
+![MiniC Optimizer](docs/06-optimizer.png)
+
+### 📉 Optimized IR
+
+![MiniC Optimized IR](docs/07-optimized-ir.png)
+
+### 🕸️ Control Flow Graph
+
+![MiniC CFG](docs/08-cfg.png)
+
+### ✅ Program Output
+
+![MiniC Program Output](docs/09-output.png)
 
 ---
-
 ## 🌐 Try It Online
 
 | Resource                       | Link                                                                               |
