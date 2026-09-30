@@ -88,6 +88,19 @@ The project includes an interactive **Streamlit Compiler Explorer** for visualiz
 | 💻 **Source Code**             | [GitHub Repository](https://github.com/N230881/MiniC-Compiler)                                                    |
 | 📚 **Technical Documentation** | [Compiler Construction Guide](https://github.com/N230881/MiniC-Compiler/blob/main/Compiler_Construction_Guide.md) | 
 
+
+## 🎬 Demo Video
+
+Watch the MiniC Compiler in action, including the interactive web interface, compilation stages, optimization, program execution, and error handling.
+
+> **▶️ MiniC Compiler — Web Interface Demo**
+
+[**Watch the full demo video**](docs/minic-ui-clean.mp4)
+
+The demo walks through the Streamlit-based Compiler Explorer and demonstrates how MiniC processes source code through its compilation pipeline.
+
+
+
 ## 🚀 What is MiniC?
 
 **MiniC** is a compiler implementation for a small C-like programming language, built from scratch in **C** to demonstrate the core architecture and engineering principles behind modern compilers.
