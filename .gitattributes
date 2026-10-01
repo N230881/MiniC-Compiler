@@ -9,3 +9,4 @@ minicompiler linguist-documentation
 
 # 3. Completely hide your compiler test files/expected outputs from language metrics
 tests/** linguist-documentation
+ 
